@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    color: azure;
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: -20px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: -15px;
+    padding-top: 10px;
+    background-color: azure;
+}
+
+header a.logo{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+header a.logo:hover{
+    font-size: 42px;
+    color: grey;
+}
+
+header a.logo:active{
+    color: azure;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 265px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 25px;
+    color: #000000;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+header ul li a:hover{
+    color: grey;
+    font-size: 17px;
+}
+
+section#signin{
+    padding-top: 100px;
+    background-image: url("/DALL·E\ 2025-03-08\ 08.11.11\ -\ A\ vast\ and\ stunning\ library\ with\ long\ wooden\ bookshelves\ stretching\ across\ the\ room\,\ large\ arched\ windows\ allowing\ natural\ light\ to\ flood\ in\,\ and\ a\ gr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+section#signin h1{
+    color: azure;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+form{
+    margin-left: 485px;
+    padding-bottom: 30px;
+}
+
+form label{
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 50px;
+    cursor: text;
+}
+
+input{
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.5px;
+}
+
+.radio{
+    margin-left: 100px;
+}
+
+.radio input{
+    cursor: pointer;
+}
+
+select#ageID{
+    cursor: pointer;
+    margin-left: 70px;
+    width: 234.5px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.5px;
+    margin-top: 30px;
+}
+
+form h2{
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+form p{
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -100px;
+}
+
+.checkboxes{
+    margin-left: 90px;
+    margin-top: -30px;
+}
+
+.checkboxes span{
+    color: azure;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.checkboxes input{
+    border: none;
+    cursor: pointer;
+}
+
+textarea{
+    width: 800px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: -150px;
+    margin-top: -20px;
+}
+
+.inbut{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: azure;
+    background-color: gray;
+    transition: all 0.5s;
+    margin-right: 300px;
+}
+
+.inbut:hover{
+    font-size: 21px;
+    opacity: 0.9;
+}
+
+.inbut:active{
+    opacity: 0.7;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    padding-left: 25px;
+    margin-right: -8px;
+    margin-left: -10px;
+}
+
+footer .fI{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fI a.logof{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    color: azure;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+footer .fI a.logof:hover{
+    font-size: 41px;
+    color: gray;
+}
+
+footer .fI p{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+footer .fI p strong{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 600px;
+}
+
+footer .fII h2{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII ul{
+    background-color: rgba(0, 0, 0, 0);
+    list-style-type: none;
+    display: flex;
+}
+
+footer .fII li{
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII li a{
+    text-decoration: none;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+footer .fII li a:hover{
+    color: gray;
+    font-size: 21px;
+}
+
+footer .fII li a i{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII h3{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 400;
+}
+
+footer .fII h3 b{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+}

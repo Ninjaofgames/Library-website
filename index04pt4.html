@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style04pt4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="index04.html" class="logo">ATL<i style="color: grey; font-size: 36px;" class="fa-solid fa-mountain"></i>S</a>
+        <ul>
+            <li><a href="index04.html#propos">À propos</a></li>
+            <li><a href="index04.html#abonee">Abonnées</a></li>
+            <li><a href="index04pt1.html">Livres</a></li>
+            <li><a href="index04pt2.html">Horaires</a></li>
+            <li><a href="index04pt3.html">Abonnement</a></li>
+        </ul>
+    </header>
+    <section id="signin">
+        <h1>Inscription à la bibliothèque ATLAS</h1>
+        <form action="">
+            <label for="fname" style="margin-left: -70px;">Nom: </label>
+            <input type="text" placeholder="Nom...">
+            <label for="lname">Prénom: </label>
+            <input type="text" placeholder="Prénom..."><br>
+            <label for="vp">Ville - Pays: </label>
+            <input type="text" placeholder="e.g. New York - USA"><br>
+            <label for="sex">Sexe:</label>
+            <div class="radio">
+                <input type="radio"><label for="M">Masculin</label><br>
+                <input type="radio"><label for="F">Féminin</label><br>
+            </div>
+            <label for="age">Age: </label>
+            <select name="ageS" id="ageID">
+                <option value="empty"></option>
+                <option value="0-15">0-15</option>
+                <option value="15-18">15-18</option>
+                <option value="+18">+18</option>
+            </select>
+            <h2>Sondage: </h2>
+            <p>
+                Que pensez-vous de l'ensemble des thèmes disponibles à la bibliothèque?<br>Le site est: 
+            </p>
+            <div class="checkboxes">
+                <input type="checkbox" name="sympa"><span>Sympa</span><br>
+                <input type="checkbox" name="moyen"><span>Moyen</span><br>
+                <input type="checkbox" name="arevoir"><span>À revoir</span>
+            </div>
+            <h2>Des suggestions: </h2>
+            <textarea name="txtA"></textarea><br>
+            <input type="button" value="Envoyer" class="inbut">
+            <input type="button" value="Effacer" class="inbut">
+        </form>
+    </section>
+    <footer>
+        <div class="fI">
+            <a href="index04.html" class="logof">ATLAS</a>
+            <p>
+                5, Boulevard Zerktouni - Casablanca
+                <br><br>
+                <strong>Number phone: </strong>+212 XXX-XXXXXX <br>
+                <strong>E-mail: </strong>bibatlas25@gmail.com
+            </p>
+        </div>
+        <div class="fII">
+            <h2>Visitez-nous ici: </h2>
+                <ul>
+                    <li><a href="https://web.facebook.com/badr.hassab.1" target="_blank"<i class="fa-brands fa-facebook" style="padding-top: 5px;"></i></a></li>
+                    <li><a href="https://x.com/ByNongaDev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/badrr_dev" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@badrfich" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/badr-hassab-7082aa2a2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://youtube.com/@ninjadev-bc4vp?si=1BRHdPNZA9mhfFxO" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <h3>Créé par <b>Badr HASSAB</b>, tous les droits sont réservés.</h3>
+        </div>
+    </footer>
+</body>
+</html>

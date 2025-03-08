@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background-color: gray;
+    color: azure;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: -20px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: -40px;
+    padding-top: 10px;
+    background-color: azure;
+}
+
+header a.logo{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+header a.logo:hover{
+    font-size: 42px;
+    color: grey;
+}
+
+header a.logo:active{
+    color: azure;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 300px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 25px;
+    color: #000000;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+header ul li a:hover{
+    color: grey;
+    font-size: 17px;
+}
+
+header button{
+    margin-left: 320px;
+    margin-right: 45px;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: grey;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header button a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: grey;
+    color: azure;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+header button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.home{
+    font-size: 38px;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+.home:hover{
+    color: gray;
+    font-size: 40px;
+}
+
+.math h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 100px;
+}
+
+div.card {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+div.card:hover{
+    transform: scale(1.1);
+}
+  
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-left: 200px;
+    border-radius: 8px;
+    background-color: azure;
+    float: left;
+}
+  
+div.card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+  
+div.card p.des {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding: 0 15px;
+}
+
+section.math{
+    margin-left: -100px;
+}
+
+section.info{
+    margin-left: -100px;
+}
+
+.info h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 600px;
+    margin-left: 100px;
+}
+
+.chimie{
+    margin-left: 150px;
+}
+
+.chimie h1{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 700px;
+    margin-left: -150px;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    color: azure;
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-left: -20px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    padding-top: 10px;
+    background-color: azure;
+}
+
+header a.logo{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+header a.logo:hover{
+    font-size: 42px;
+    color: grey;
+}
+
+header a.logo:active{
+    color: azure;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 300px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 25px;
+    color: #000000;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+header ul li a:hover{
+    color: grey;
+    font-size: 17px;
+}
+
+header button{
+    margin-left: 320px;
+    margin-right: 45px;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: grey;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header button a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: grey;
+    color: azure;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+header button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+section#horaire{
+    background-image: url("/DALL·E\ 2025-03-08\ 08.11.11\ -\ A\ vast\ and\ stunning\ library\ with\ long\ wooden\ bookshelves\ stretching\ across\ the\ room\,\ large\ arched\ windows\ allowing\ natural\ light\ to\ flood\ in\,\ and\ a\ gr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 107px;
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-right: -8px;
+    height: 613.9px;
+}
+
+section#horaire h1{
+    color: azure;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+table, th, tr, td{
+    border: solid 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-left: 220px;
+    text-align: center;
+}
+
+th, td{
+    padding: 10px;
+    background-color: azure;
+    font-family: 'Poppins';
+}
+
+th{
+    font-weight: 900;
+}
+
+td{
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    padding-left: 25px;
+    margin-right: -8px;
+    margin-left: -10px;
+}
+
+footer .fI{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fI a.logof{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    color: azure;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+footer .fI a.logof:hover{
+    font-size: 41px;
+    color: gray;
+}
+
+footer .fI p{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fI p strong{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 600px;
+}
+
+footer .fII h2{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII ul{
+    background-color: rgba(0, 0, 0, 0);
+    list-style-type: none;
+    display: flex;
+}
+
+footer .fII li{
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII li a{
+    text-decoration: none;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+footer .fII li a:hover{
+    color: gray;
+    font-size: 21px;
+}
+
+footer .fII li a i{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer .fII h3{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 400;
+}
+
+footer .fII h3 b{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+}
